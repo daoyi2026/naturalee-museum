@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "artworks": [
+    {
+      "id": "002-silver-clock",
+      "title": "银色时钟 · 时间的飞鸟",
+      "status": "published",
+      "date": "2026-11-20",
+      "description": "A silver clock fractures into birds, drifts through Klein-blue space, and returns to reconstruct time.",
+      "medium": "p5.js",
+      "cover": "assets/cover.png"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="daoyi2026 的数字艺术作品集">
+  <title>Digital Art — 数字艺术</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./assets/gallery.css">
+  <script type="module" src="./assets/gallery.js"></script>
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="Digital Art 首页">DA<span class="wordmark-dot">.</span></a>
+      <a class="source-link" href="https://github.com/daoyi2026/naturalee-museum">GitHub <span aria-hidden="true">↗</span></a>
+    </header>
+    <main>
+      <div class="intro">
+        <p class="eyebrow">DIGITAL ART</p>
+        <h1>数字艺术</h1>
+        <div class="collection-label"><span>作品集</span><span id="artwork-count" aria-live="polite"></span></div>
+      </div>
+      <section id="artwork-grid" class="artwork-grid" aria-label="已发布作品" aria-busy="true"></section>
+      <div id="empty-state" class="empty-state" hidden>
+        <span class="empty-mark" aria-hidden="true"></span>
+        <p>作品尚未发布</p>
+        <span>完成的作品将在这里呈现</span>
+      </div>
+      <p id="catalog-error" class="catalog-error" role="status" hidden>暂时无法读取作品目录，请稍后再试。</p>
+      <noscript><p class="catalog-error">请启用 JavaScript 查看作品目录。</p></noscript>
+    </main>
+    <footer><span>daoyi2026</span><span>Digital Art Archive</span></footer>
+  </div>
+</body>
+</html>
