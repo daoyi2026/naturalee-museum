@@ -7,14 +7,15 @@ a:focus-visible { outline: 2px solid #526b60; outline-offset: 6px; }
 [hidden] { display: none !important; }
 .site { max-width: 1184px; min-height: 100svh; margin: auto; padding: 0 56px; display: flex; flex-direction: column; }
 .masthead { display: flex; align-items: center; justify-content: space-between; padding: 32px 0; border-bottom: 1px solid var(--line); }
-.wordmark { font-size: 24px; letter-spacing: -2px; font-weight: 600; }
-.wordmark-dot { color: #698273; }
+.wordmark { display: inline-flex; align-items: center; }
+.wordmark img { display: block; width: 36px; height: 42px; }
 .source-link { font-size: 12px; letter-spacing: .03em; color: #63675f; }
 .source-link span { padding-left: 9px; }
 main { flex: 1; }
 .intro { padding-top: 76px; }
 .eyebrow { margin: 0 0 20px; font-size: 10px; letter-spacing: .24em; color: var(--muted); }
 h1 { margin: 0; font-family: "Songti SC", "Noto Serif CJK SC", serif; font-weight: 400; font-size: clamp(42px, 6vw, 68px); letter-spacing: .06em; line-height: 1.3; }
+.brand-latin { display: inline-block; margin-left: .22em; font-family: Georgia, "Times New Roman", serif; font-size: .72em; letter-spacing: -.035em; }
 .collection-label { display: flex; align-items: center; justify-content: space-between; margin-top: 60px; padding-bottom: 15px; border-bottom: 1px solid var(--line); font-size: 12px; letter-spacing: .08em; }
 #artwork-count { color: var(--muted); font-size: 11px; letter-spacing: .03em; }
 .empty-state { min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 54px 16px; }
