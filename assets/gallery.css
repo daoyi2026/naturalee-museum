@@ -26,8 +26,8 @@ h1 img { display: block; flex-shrink: 0; width: auto; }
 .empty-state > span:last-child { font-size: 11px; color: var(--muted); letter-spacing: .04em; }
 .artwork-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 42px 30px; padding-top: 30px; }
 .artwork-grid:empty { padding: 0; }
-.artwork-cover { display: block; overflow: hidden; aspect-ratio: 4 / 3; background: #e8e9e1; }
-.artwork-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.artwork-cover { display: block; overflow: hidden; aspect-ratio: 3 / 4; background: #e8e9e1; }
+.artwork-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .artwork-info { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; margin-top: 16px; }
 .artwork-info h2 { margin: 0; font-size: 17px; font-weight: 400; letter-spacing: .02em; }
 .artwork-info time { color: var(--muted); font-size: 11px; white-space: nowrap; }
